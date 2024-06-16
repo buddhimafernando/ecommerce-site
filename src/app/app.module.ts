@@ -10,6 +10,10 @@ import { LayoutComponent } from './pages/admin/layout/layout.component';
 import { OrderComponent } from './pages/admin/order/order.component';
 import { ProductsComponent } from './pages/admin/products/products.component';
 import { LandingComponent } from './pages/website/landing/landing.component';
+import { CategoryProductsComponent } from './pages/website/category-products/category-products.component';
+import { CustomerCartComponent } from './pages/website/customer-cart/customer-cart.component';
+import { CheckoutComponent } from './pages/website/checkout/checkout.component';
+import { CustomerOrdersComponent } from './pages/website/customer-orders/customer-orders.component';
 
 
 @NgModule({
@@ -22,6 +26,10 @@ import { LandingComponent } from './pages/website/landing/landing.component';
     OrderComponent,
     ProductsComponent,
     LandingComponent,
+    CategoryProductsComponent,
+    CustomerCartComponent,
+    CheckoutComponent,
+    CustomerOrdersComponent,
   ],
   imports: [
     BrowserModule,
