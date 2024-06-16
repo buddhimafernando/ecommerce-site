@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CartComponent } from './pages/admin/cart/cart.component';
@@ -14,6 +15,7 @@ import { CategoryProductsComponent } from './pages/website/category-products/cat
 import { CustomerCartComponent } from './pages/website/customer-cart/customer-cart.component';
 import { CheckoutComponent } from './pages/website/checkout/checkout.component';
 import { CustomerOrdersComponent } from './pages/website/customer-orders/customer-orders.component';
+import { LoginComponent } from './pages/admin/login/login.component';
 
 
 @NgModule({
@@ -30,10 +32,12 @@ import { CustomerOrdersComponent } from './pages/website/customer-orders/custome
     CustomerCartComponent,
     CheckoutComponent,
     CustomerOrdersComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
